@@ -1,0 +1,92 @@
+[
+  {
+    "id": "couteau-chef-20",
+    "nom": "Couteau de chef 20 cm",
+    "categorie": "Couteaux",
+    "marque": "Forge & Co",
+    "prix": 89,
+    "description": "Acier inoxydable, lame fine et équilibrée pour tous les découpages.",
+    "badge": "Best-seller",
+    "vedette": true
+  },
+  {
+    "id": "couteau-office-9",
+    "nom": "Couteau d'office 9 cm",
+    "categorie": "Couteaux",
+    "marque": "Forge & Co",
+    "prix": 24,
+    "description": "Pour éplucher, parer et couper les petits aliments.",
+    "badge": "",
+    "vedette": false
+  },
+  {
+    "id": "couteau-eminceur-18",
+    "nom": "Éminceur 18 cm",
+    "categorie": "Couteaux",
+    "marque": "Maison Atelier",
+    "prix": 49,
+    "description": "Lame souple pour trancher jambon, saumon et légumes.",
+    "badge": "",
+    "vedette": false
+  },
+  {
+    "id": "casserole-inox-24",
+    "nom": "Casserole inox 24 cm",
+    "categorie": "Casseroles",
+    "marque": "Maison Atelier",
+    "prix": 65,
+    "description": "Fond multicouche compatible induction, couvercle en verre.",
+    "badge": "Nouveau",
+    "vedette": true
+  },
+  {
+    "id": "sauteuse-fonte-26",
+    "nom": "Sauteuse en fonte émaillée 26 cm",
+    "categorie": "Casseroles",
+    "marque": "Table Ronde",
+    "prix": 120,
+    "description": "Diffusion homogène de la chaleur, idéale pour braiser et mijoter.",
+    "badge": "",
+    "vedette": true
+  },
+  {
+    "id": "poele-antiadh-28",
+    "nom": "Poêle antiadhésive 28 cm",
+    "categorie": "Casseroles",
+    "marque": "Table Ronde",
+    "prix": 35,
+    "description": "Revêtement antiadhésif, manche ergonomique.",
+    "badge": "Promo",
+    "vedette": false
+  },
+  {
+    "id": "moule-cake-silicone",
+    "nom": "Moule à cake en silicone",
+    "categorie": "Pâtisserie",
+    "marque": "Table Ronde",
+    "prix": 16,
+    "description": "Démoulage facile, résiste aux températures du four.",
+    "badge": "",
+    "vedette": false
+  },
+  {
+    "id": "rouleau-patisserie",
+    "nom": "Rouleau à pâtisserie en bois d'hévéa",
+    "categorie": "Pâtisserie",
+    "marque": "Maison Atelier",
+    "prix": 19,
+    "description": "Pâte fine et régulière, entretien simple.",
+    "badge": "",
+    "vedette": true
+  },
+  {
+    "id": "planche-bois-olivier",
+    "nom": "Planche à découper en bois d'olivier",
+    "categorie": "Accessoires",
+    "marque": "Forge & Co",
+    "prix": 42,
+    "description": "Bois massif, respectueux des couteaux, à huiler régulièrement.",
+    "badge": "",
+    "vedette": false
+  }
+]
