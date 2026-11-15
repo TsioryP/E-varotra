@@ -7,7 +7,8 @@
     "prix": 89,
     "description": "Acier inoxydable, lame fine et équilibrée pour tous les découpages.",
     "badge": "Best-seller",
-    "vedette": true
+    "vedette": true,
+    "specs": { "Longueur de lame": "20 cm", "Matériau": "Acier inoxydable", "Poids": "180 g", "Entretien": "Lavage à la main" }
   },
   {
     "id": "couteau-office-9",
@@ -17,7 +18,8 @@
     "prix": 24,
     "description": "Pour éplucher, parer et couper les petits aliments.",
     "badge": "",
-    "vedette": false
+    "vedette": false,
+    "specs": { "Longueur de lame": "9 cm", "Matériau": "Acier inoxydable", "Poids": "45 g", "Entretien": "Lavage à la main" }
   },
   {
     "id": "couteau-eminceur-18",
@@ -27,7 +29,8 @@
     "prix": 49,
     "description": "Lame souple pour trancher jambon, saumon et légumes.",
     "badge": "",
-    "vedette": false
+    "vedette": false,
+    "specs": { "Longueur de lame": "18 cm", "Matériau": "Acier inoxydable", "Poids": "120 g", "Entretien": "Lavage à la main" }
   },
   {
     "id": "casserole-inox-24",
@@ -37,7 +40,8 @@
     "prix": 65,
     "description": "Fond multicouche compatible induction, couvercle en verre.",
     "badge": "Nouveau",
-    "vedette": true
+    "vedette": true,
+    "specs": { "Diamètre": "24 cm", "Matériau": "Inox multicouche", "Compatibilité": "Induction, gaz, électrique", "Capacité": "3,5 L" }
   },
   {
     "id": "sauteuse-fonte-26",
@@ -47,7 +51,8 @@
     "prix": 120,
     "description": "Diffusion homogène de la chaleur, idéale pour braiser et mijoter.",
     "badge": "",
-    "vedette": true
+    "vedette": true,
+    "specs": { "Diamètre": "26 cm", "Matériau": "Fonte émaillée", "Compatibilité": "Induction, gaz, four", "Poids": "3,8 kg" }
   },
   {
     "id": "poele-antiadh-28",
@@ -57,7 +62,8 @@
     "prix": 35,
     "description": "Revêtement antiadhésif, manche ergonomique.",
     "badge": "Promo",
-    "vedette": false
+    "vedette": false,
+    "specs": { "Diamètre": "28 cm", "Revêtement": "Antiadhésif sans PFOA", "Compatibilité": "Induction, gaz, électrique", "Poids": "900 g" }
   },
   {
     "id": "moule-cake-silicone",
@@ -67,7 +73,8 @@
     "prix": 16,
     "description": "Démoulage facile, résiste aux températures du four.",
     "badge": "",
-    "vedette": false
+    "vedette": false,
+    "specs": { "Dimensions": "26 x 11 cm", "Matériau": "Silicone alimentaire", "Température": "-40 °C à 230 °C", "Entretien": "Lave-vaisselle" }
   },
   {
     "id": "rouleau-patisserie",
@@ -77,7 +84,8 @@
     "prix": 19,
     "description": "Pâte fine et régulière, entretien simple.",
     "badge": "",
-    "vedette": true
+    "vedette": true,
+    "specs": { "Longueur": "40 cm", "Matériau": "Bois d'hévéa", "Poids": "380 g", "Entretien": "Lavage à la main" }
   },
   {
     "id": "planche-bois-olivier",
@@ -87,6 +95,7 @@
     "prix": 42,
     "description": "Bois massif, respectueux des couteaux, à huiler régulièrement.",
     "badge": "",
-    "vedette": false
+    "vedette": false,
+    "specs": { "Dimensions": "35 x 20 x 2 cm", "Matériau": "Bois d'olivier massif", "Poids": "900 g", "Entretien": "Huile alimentaire" }
   }
 ]

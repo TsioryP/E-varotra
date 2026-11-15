@@ -30,7 +30,7 @@ function productCard(p) {
           <span class="price">${EUR.format(p.prix)}</span>
           ${badge}
         </div>
-        <a class="btn btn-small" href="${BASE}pages/contact.html?produit=${encodeURIComponent(p.id)}">Demander ce produit</a>
+        <a class="btn btn-primary btn-small btn-block" href="${BASE}pages/produit.html?id=${encodeURIComponent(p.id)}">Voir la fiche</a>
       </div>
     </article>`;
 }
@@ -44,6 +44,48 @@ if (featuredEl) {
     })
     .catch(() => {
       featuredEl.innerHTML = '<p class="muted">Produits indisponibles pour le moment.</p>';
+    });
+}
+
+// Page fiche produit
+const ficheEl = document.getElementById('fiche');
+if (ficheEl) {
+  const id = new URLSearchParams(location.search).get('id');
+  loadProducts()
+    .then((list) => {
+      const p = list.find((x) => x.id === id);
+      if (!p) {
+        ficheEl.innerHTML = '<p class="muted">Ce produit n\'existe pas. <a href="produits.html">Voir le catalogue</a></p>';
+        return;
+      }
+      document.title = `${p.nom} — E-varotra`;
+      document.getElementById('fil-nom').textContent = p.nom;
+      const specs = Object.entries(p.specs || {})
+        .map(([k, v]) => `<tr><th>${escapeHtml(k)}</th><td>${escapeHtml(v)}</td></tr>`)
+        .join('');
+      ficheEl.innerHTML = `
+        <div class="product-page">
+          <div class="product-photo">${escapeHtml(p.categorie)}</div>
+          <div class="product-info">
+            <p class="product-meta">${escapeHtml(p.marque)} · ${escapeHtml(p.categorie)}</p>
+            <h1>${escapeHtml(p.nom)}</h1>
+            <p class="muted">${escapeHtml(p.description)}</p>
+            <span class="price">${EUR.format(p.prix)}</span>
+            <a class="btn btn-primary btn-block" href="contact.html?produit=${encodeURIComponent(p.id)}">Commander ce produit</a>
+            <a class="btn btn-outline btn-block" href="contact.html?produit=${encodeURIComponent(p.id)}">Demander un conseil</a>
+            <table class="specs">${specs}</table>
+          </div>
+        </div>`;
+      const autres = list.filter((x) => x.id !== p.id && x.categorie === p.categorie).slice(0, 4);
+      const relatedEl = document.getElementById('related');
+      if (relatedEl && autres.length) {
+        relatedEl.innerHTML = `
+          <div class="section-head"><h2>Dans la même catégorie</h2></div>
+          <div class="grid grid-4" style="margin-top:16px">${autres.map(productCard).join('')}</div>`;
+      }
+    })
+    .catch(() => {
+      ficheEl.innerHTML = '<p class="muted">Produit indisponible pour le moment.</p>';
     });
 }
 
