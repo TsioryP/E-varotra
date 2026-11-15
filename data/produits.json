@@ -33,6 +33,28 @@
     "specs": { "Longueur de lame": "18 cm", "Matériau": "Acier inoxydable", "Poids": "120 g", "Entretien": "Lavage à la main" }
   },
   {
+    "id": "couteau-pain-23",
+    "nom": "Couteau à pain 23 cm",
+    "categorie": "Couteaux",
+    "marque": "Maison Atelier",
+    "prix": 38,
+    "description": "Lame dentelée qui tranche le pain croustillant sans l'écraser.",
+    "badge": "",
+    "vedette": false,
+    "specs": { "Longueur de lame": "23 cm", "Matériau": "Acier inoxydable", "Poids": "150 g", "Entretien": "Lavage à la main" }
+  },
+  {
+    "id": "couteau-santoku-17",
+    "nom": "Couteau santoku 17 cm",
+    "categorie": "Couteaux",
+    "marque": "Forge & Co",
+    "prix": 72,
+    "description": "Lame large et légère, idéale pour les légumes et les herbes.",
+    "badge": "Nouveau",
+    "vedette": false,
+    "specs": { "Longueur de lame": "17 cm", "Matériau": "Acier inoxydable", "Poids": "140 g", "Entretien": "Lavage à la main" }
+  },
+  {
     "id": "casserole-inox-24",
     "nom": "Casserole inox 24 cm",
     "categorie": "Casseroles",
@@ -66,6 +88,28 @@
     "specs": { "Diamètre": "28 cm", "Revêtement": "Antiadhésif sans PFOA", "Compatibilité": "Induction, gaz, électrique", "Poids": "900 g" }
   },
   {
+    "id": "faitout-inox-28",
+    "nom": "Faitout inox 28 cm",
+    "categorie": "Casseroles",
+    "marque": "Table Ronde",
+    "prix": 95,
+    "description": "Grand volume pour soupes, sauces et cuissons longues.",
+    "badge": "",
+    "vedette": false,
+    "specs": { "Diamètre": "28 cm", "Matériau": "Inox 18/10", "Compatibilité": "Induction, gaz, électrique", "Capacité": "6 L" }
+  },
+  {
+    "id": "wok-carbone-30",
+    "nom": "Wok en acier au carbone 30 cm",
+    "categorie": "Casseroles",
+    "marque": "Forge & Co",
+    "prix": 45,
+    "description": "Chauffe vite et saisit parfaitement, à entretenir après chaque usage.",
+    "badge": "",
+    "vedette": false,
+    "specs": { "Diamètre": "30 cm", "Matériau": "Acier au carbone", "Compatibilité": "Induction, gaz", "Poids": "1,1 kg" }
+  },
+  {
     "id": "moule-cake-silicone",
     "nom": "Moule à cake en silicone",
     "categorie": "Pâtisserie",
@@ -88,6 +132,28 @@
     "specs": { "Longueur": "40 cm", "Matériau": "Bois d'hévéa", "Poids": "380 g", "Entretien": "Lavage à la main" }
   },
   {
+    "id": "fouet-inox-25",
+    "nom": "Fouet inox 25 cm",
+    "categorie": "Pâtisserie",
+    "marque": "Maison Atelier",
+    "prix": 9,
+    "description": "Fils souples qui montent blancs et crèmes rapidement.",
+    "badge": "",
+    "vedette": false,
+    "specs": { "Longueur": "25 cm", "Matériau": "Inox", "Poids": "60 g", "Entretien": "Lave-vaisselle" }
+  },
+  {
+    "id": "emporte-pieces-6",
+    "nom": "Set d'emporte-pièces inox (6)",
+    "categorie": "Pâtisserie",
+    "marque": "Table Ronde",
+    "prix": 14,
+    "description": "Six formes classiques pour biscuits et pâtes à tarte.",
+    "badge": "",
+    "vedette": false,
+    "specs": { "Nombre de formes": "6", "Matériau": "Inox", "Dimensions": "5 à 10 cm", "Entretien": "Lave-vaisselle" }
+  },
+  {
     "id": "planche-bois-olivier",
     "nom": "Planche à découper en bois d'olivier",
     "categorie": "Accessoires",
@@ -97,5 +163,27 @@
     "badge": "",
     "vedette": false,
     "specs": { "Dimensions": "35 x 20 x 2 cm", "Matériau": "Bois d'olivier massif", "Poids": "900 g", "Entretien": "Huile alimentaire" }
+  },
+  {
+    "id": "spatule-silicone",
+    "nom": "Spatule en silicone",
+    "categorie": "Accessoires",
+    "marque": "Maison Atelier",
+    "prix": 8,
+    "description": "Souple et résistante à la chaleur, pour racler les bols sans rayer.",
+    "badge": "",
+    "vedette": false,
+    "specs": { "Longueur": "28 cm", "Matériau": "Silicone alimentaire", "Température": "jusqu'à 230 °C", "Entretien": "Lave-vaisselle" }
+  },
+  {
+    "id": "passoire-inox-20",
+    "nom": "Passoire inox 20 cm",
+    "categorie": "Accessoires",
+    "marque": "Table Ronde",
+    "prix": 18,
+    "description": "Pieds stables et mailles fines pour égoutter pâtes et légumes.",
+    "badge": "",
+    "vedette": false,
+    "specs": { "Diamètre": "20 cm", "Matériau": "Inox", "Hauteur": "10 cm", "Entretien": "Lave-vaisselle" }
   }
 ]

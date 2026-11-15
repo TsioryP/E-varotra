@@ -11,6 +11,13 @@ function escapeHtml(value) {
   }[c]));
 }
 
+// Image réelle si le produit en a une (champ "image" dans le JSON), sinon un cadre avec l'univers
+function imageHtml(p, classe) {
+  return p.image
+    ? `<img class="${classe}" src="${BASE}${escapeHtml(p.image)}" alt="${escapeHtml(p.nom)}" loading="lazy">`
+    : `<div class="${classe}">${escapeHtml(p.categorie)}</div>`;
+}
+
 async function loadProducts() {
   const response = await fetch(BASE + 'data/produits.json');
   if (!response.ok) throw new Error('Impossible de charger les produits');
@@ -21,7 +28,7 @@ function productCard(p) {
   const badge = p.badge ? `<span class="badge">${escapeHtml(p.badge)}</span>` : '';
   return `
     <article class="product-card">
-      <div class="product-img">${escapeHtml(p.categorie)}</div>
+      ${imageHtml(p, 'product-img')}
       <div class="product-body">
         <p class="product-meta">${escapeHtml(p.marque)} · ${escapeHtml(p.categorie)}</p>
         <h3>${escapeHtml(p.nom)}</h3>
@@ -65,7 +72,7 @@ if (ficheEl) {
         .join('');
       ficheEl.innerHTML = `
         <div class="product-page">
-          <div class="product-photo">${escapeHtml(p.categorie)}</div>
+          ${imageHtml(p, 'product-photo')}
           <div class="product-info">
             <p class="product-meta">${escapeHtml(p.marque)} · ${escapeHtml(p.categorie)}</p>
             <h1>${escapeHtml(p.nom)}</h1>

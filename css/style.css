@@ -151,6 +151,8 @@ h3 { font-size: 1rem; }
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
+img.product-img,
+img.product-photo { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; background: #eef1f6; }
 .product-body { padding: 12px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
 .product-meta { margin: 0; font-size: 0.75rem; color: var(--muted); }
 .product-body h3 { font-size: 0.95rem; margin: 0; }
