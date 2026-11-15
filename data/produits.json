@@ -287,5 +287,192 @@
       "Entretien": "Lave-vaisselle"
     },
     "image": "images/produits/passoire-inox-20.svg"
+  },
+  {
+    "id": "balance-5kg",
+    "nom": "Balance de cuisine 5 kg",
+    "categorie": "Petit électroménager",
+    "marque": "Forge & Co",
+    "prix": 19,
+    "description": "Affichage précis au gramme, plateau inox amovible.",
+    "badge": "",
+    "vedette": false,
+    "specs": {
+      "Capacité": "5 kg",
+      "Précision": "1 g",
+      "Alimentation": "2 piles AAA",
+      "Plateau": "Inox amovible"
+    },
+    "image": "images/produits/balance-5kg.svg"
+  },
+  {
+    "id": "mixeur-plongeant",
+    "nom": "Mixeur plongeant 600 W",
+    "categorie": "Petit électroménager",
+    "marque": "Maison Atelier",
+    "prix": 59,
+    "description": "Cinq vitesses, lame inox et pied amovible.",
+    "badge": "Nouveau",
+    "vedette": true,
+    "specs": {
+      "Puissance": "600 W",
+      "Vitesses": "5",
+      "Matériau de la lame": "Inox",
+      "Entretien": "Pied au lave-vaisselle"
+    },
+    "image": "images/produits/mixeur-plongeant.svg"
+  },
+  {
+    "id": "bouilloire-17",
+    "nom": "Bouilloire électrique 1,7 L",
+    "categorie": "Petit électroménager",
+    "marque": "Table Ronde",
+    "prix": 45,
+    "description": "Arrêt automatique et voyant de niveau.",
+    "badge": "",
+    "vedette": false,
+    "specs": {
+      "Capacité": "1,7 L",
+      "Puissance": "2200 W",
+      "Sécurité": "Arrêt automatique",
+      "Matériau": "Inox brossé"
+    },
+    "image": "images/produits/bouilloire-17.svg"
+  },
+  {
+    "id": "assiettes-lot-4",
+    "nom": "Lot de 4 assiettes plates",
+    "categorie": "Vaisselle",
+    "marque": "Table Ronde",
+    "prix": 34,
+    "description": "Porcelaine blanche, passe au lave-vaisselle.",
+    "badge": "",
+    "vedette": false,
+    "specs": {
+      "Diamètre": "27 cm",
+      "Quantité": "4",
+      "Matériau": "Porcelaine",
+      "Entretien": "Lave-vaisselle"
+    },
+    "image": "images/produits/assiettes-lot-4.svg"
+  },
+  {
+    "id": "saladier-verre-3l",
+    "nom": "Saladier en verre 3 L",
+    "categorie": "Vaisselle",
+    "marque": "Maison Atelier",
+    "prix": 22,
+    "description": "Verre trempé et léger, pour salades et marinades.",
+    "badge": "",
+    "vedette": false,
+    "specs": {
+      "Capacité": "3 L",
+      "Matériau": "Verre trempé",
+      "Diamètre": "24 cm",
+      "Entretien": "Lave-vaisselle"
+    },
+    "image": "images/produits/saladier-verre-3l.svg"
+  },
+  {
+    "id": "plat-four-gres-30",
+    "nom": "Plat à four en grès 30 cm",
+    "categorie": "Vaisselle",
+    "marque": "Table Ronde",
+    "prix": 28,
+    "description": "Grès résistant aux chocs, du four à la table.",
+    "badge": "",
+    "vedette": false,
+    "specs": {
+      "Dimensions": "30 x 20 cm",
+      "Matériau": "Grès",
+      "Compatibilité": "Four, micro-ondes",
+      "Entretien": "Lave-vaisselle"
+    },
+    "image": "images/produits/plat-four-gres-30.svg"
+  },
+  {
+    "id": "bocaux-lot-6",
+    "nom": "Lot de 6 bocaux en verre",
+    "categorie": "Conservation",
+    "marque": "Maison Atelier",
+    "prix": 26,
+    "description": "Fermeture hermétique, pour conserves et préparations.",
+    "badge": "",
+    "vedette": false,
+    "specs": {
+      "Quantité": "6",
+      "Capacité": "500 ml chacun",
+      "Matériau": "Verre",
+      "Fermeture": "Clips hermétiques"
+    },
+    "image": "images/produits/bocaux-lot-6.svg"
+  },
+  {
+    "id": "boite-hermetique-2l",
+    "nom": "Boîte hermétique 2 L",
+    "categorie": "Conservation",
+    "marque": "Forge & Co",
+    "prix": 15,
+    "description": "Joint souple, empilable, compatible micro-ondes.",
+    "badge": "",
+    "vedette": false,
+    "specs": {
+      "Capacité": "2 L",
+      "Matériau": "Plastique alimentaire",
+      "Compatibilité": "Micro-ondes",
+      "Entretien": "Lave-vaisselle"
+    },
+    "image": "images/produits/boite-hermetique-2l.svg"
+  },
+  {
+    "id": "huile-olive-500",
+    "nom": "Huile d'olive 500 ml",
+    "categorie": "Épicerie",
+    "marque": "Maison Atelier",
+    "prix": 12,
+    "description": "Première pression à froid, goût fruité.",
+    "badge": "Best-seller",
+    "vedette": true,
+    "specs": {
+      "Volume": "500 ml",
+      "Pression": "À froid",
+      "Goût": "Fruité",
+      "Conservation": "À l'abri de la lumière"
+    },
+    "image": "images/produits/huile-olive-500.svg"
+  },
+  {
+    "id": "sel-gris-250",
+    "nom": "Sel gris 250 g",
+    "categorie": "Épicerie",
+    "marque": "Table Ronde",
+    "prix": 6,
+    "description": "Sel gris récolté à la main, à finir en fin de cuisson.",
+    "badge": "",
+    "vedette": false,
+    "specs": {
+      "Poids": "250 g",
+      "Origine": "Récolte artisanale",
+      "Usage": "Finition",
+      "Conservation": "Au sec"
+    },
+    "image": "images/produits/sel-gris-250.svg"
+  },
+  {
+    "id": "moulin-poivre-bois",
+    "nom": "Moulin à poivre en bois",
+    "categorie": "Épicerie",
+    "marque": "Forge & Co",
+    "prix": 24,
+    "description": "Mouture réglable, bois de hêtre.",
+    "badge": "",
+    "vedette": false,
+    "specs": {
+      "Hauteur": "20 cm",
+      "Matériau": "Bois de hêtre",
+      "Mouture": "Réglable",
+      "Entretien": "Essuyage humide"
+    },
+    "image": "images/produits/moulin-poivre-bois.svg"
   }
 ]
