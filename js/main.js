@@ -1,6 +1,6 @@
 // Fonctions communes à toutes les pages.
 // À modifier : l'adresse e-mail de contact.
-const CONTACT_EMAIL = 'contact@exemple.fr';
+const CONTACT_EMAIL = 'tsioryramarosandratana@gmail.com';
 
 const BASE = document.body.dataset.base || '';
 const EUR = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR' });
